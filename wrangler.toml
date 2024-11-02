@@ -7,7 +7,7 @@ port = 8787
 local_protocol = "http"
 
 [env.vars]
-CUSTOM_DOMAIN = "apolenakog.store"
+CUSTOM_DOMAIN = "libcuda.com"
 
 [env.dev.vars]
 MODE = "debug"
@@ -31,7 +31,7 @@ TARGET_UPSTREAM = ""
 
 [env.staging]
 name = "cloudflare-docker-proxy-staging"
-route = { pattern = "docker-staging.xxx.xxx", custom_domain = true }
+route = { pattern = "docker-staging.libcuda.com", custom_domain = true }
 
 [env.staging.vars]
 MODE = "staging"
