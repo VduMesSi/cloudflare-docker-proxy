@@ -13,7 +13,7 @@ const routes = {
   "k8s.apolenakog.store": "https://registry.k8s.io",
   "ghcr.apolenakog.store": "https://ghcr.io",
   "cloudsmith.apolenakog.store": "https://docker.cloudsmith.io",
-  "docker-staging.apolenakog.store": dockerHub,
+  //"docker-staging.apolenakog.store": dockerHub,
 };
 
 function routeByHosts(host) {
